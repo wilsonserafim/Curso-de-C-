@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\bin\Debug\if-elseif-else.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\bin\Debug\if-elseif-else.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\bin\Debug\if-elseif-else.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\obj\Debug\if-elseif-else.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\obj\Debug\if-elseif-else.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\obj\Debug\if-elseif-else.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\obj\Debug\if-elseif-else.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula009\if-elseif-else\obj\Debug\if-elseif-else.pdb

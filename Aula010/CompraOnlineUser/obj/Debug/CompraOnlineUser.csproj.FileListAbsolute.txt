@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\bin\Debug\CompraOnlineUser.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\bin\Debug\CompraOnlineUser.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\bin\Debug\CompraOnlineUser.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\obj\Debug\CompraOnlineUser.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\obj\Debug\CompraOnlineUser.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\obj\Debug\CompraOnlineUser.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\obj\Debug\CompraOnlineUser.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula010\CompraOnlineUser\obj\Debug\CompraOnlineUser.pdb

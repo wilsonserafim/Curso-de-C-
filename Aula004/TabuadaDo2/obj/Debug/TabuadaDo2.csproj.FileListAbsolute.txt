@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\bin\Debug\TabuadaDo2.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\bin\Debug\TabuadaDo2.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\bin\Debug\TabuadaDo2.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\obj\Debug\TabuadaDo2.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\obj\Debug\TabuadaDo2.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\obj\Debug\TabuadaDo2.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\obj\Debug\TabuadaDo2.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula004\TabuadaDo2\obj\Debug\TabuadaDo2.pdb

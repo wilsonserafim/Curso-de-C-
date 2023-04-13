@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\bin\Debug\Operadores.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\bin\Debug\Operadores.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\bin\Debug\Operadores.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\obj\Debug\Operadores.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\obj\Debug\Operadores.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\obj\Debug\Operadores.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\obj\Debug\Operadores.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula003\Operadores\obj\Debug\Operadores.pdb

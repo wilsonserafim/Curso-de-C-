@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\bin\Debug\Variaves.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\bin\Debug\Variaves.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\bin\Debug\Variaves.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\obj\Debug\Variaves.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\obj\Debug\Variaves.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\obj\Debug\Variaves.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\obj\Debug\Variaves.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula005\Variaves\obj\Debug\Variaves.pdb

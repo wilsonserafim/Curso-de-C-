@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\obj\Debug\ForWhile.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\obj\Debug\ForWhile.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\obj\Debug\ForWhile.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\bin\Debug\ForWhile.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\bin\Debug\ForWhile.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\bin\Debug\ForWhile.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\obj\Debug\ForWhile.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula011\ForWhile\obj\Debug\ForWhile.pdb

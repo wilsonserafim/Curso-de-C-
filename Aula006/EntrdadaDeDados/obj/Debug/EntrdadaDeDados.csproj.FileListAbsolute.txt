@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\bin\Debug\EntrdadaDeDados.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\bin\Debug\EntrdadaDeDados.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\bin\Debug\EntrdadaDeDados.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\obj\Debug\EntrdadaDeDados.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\obj\Debug\EntrdadaDeDados.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\obj\Debug\EntrdadaDeDados.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\obj\Debug\EntrdadaDeDados.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula006\EntrdadaDeDados\obj\Debug\EntrdadaDeDados.pdb

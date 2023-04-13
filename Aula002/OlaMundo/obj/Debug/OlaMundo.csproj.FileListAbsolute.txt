@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\bin\Debug\OlaMundo.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\bin\Debug\OlaMundo.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\bin\Debug\OlaMundo.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\obj\Debug\OlaMundo.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\obj\Debug\OlaMundo.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\obj\Debug\OlaMundo.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\obj\Debug\OlaMundo.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Aula002\OlaMundo\obj\Debug\OlaMundo.pdb
