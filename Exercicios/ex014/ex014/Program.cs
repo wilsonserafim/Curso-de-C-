@@ -10,6 +10,13 @@ namespace ex014
     {
         static void Main(string[] args)
         {
+            /*
+            14) A locadora de carros precisa da sua ajuda para cobrar seus serviços. Escreva
+            um programa que pergunte a quantidade de Km percorridos por um carro alugado e a
+            quantidade de dias pelos quais ele foi alugado. Calcule o preço total a pagar,
+            sabendo que o carro custa R$90 por dia e R$0,20 por Km rodado.
+            */
+
             Console.WriteLine("-*-*-* PROGRAMA DE LOCAÇÃO DE VEICULOS *-*-*-");
             Console.WriteLine("Favor informe a placa do veiculo no formato ABC-1234");
             string placa = Console.ReadLine();

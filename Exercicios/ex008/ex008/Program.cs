@@ -10,6 +10,19 @@ namespace ex008
     {
         static void Main(string[] args)
         {
+            /*
+            8) Desenvolva um programa que leia uma distância em metros e mostre os valores
+            relativos em outras medidas.
+            Ex:
+            Digite uma distância em metros: 185.72
+            A distância de 85.7m corresponde a:
+            0.18572Km
+            1.8572Hm
+            18.572Dam
+            1857.2dm
+            18572.0cm
+            185720.0mm
+            */
             Console.WriteLine("-*-*-* PROGRAMA DE CONVERSÃO DE MEDIDAS *-*-*-");
             Console.WriteLine("informe a distancia em metros");
             float n1 = float.Parse(Console.ReadLine());

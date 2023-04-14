@@ -10,6 +10,10 @@ namespace ex012
     {
         static void Main(string[] args)
         {
+            /*
+            12) Crie um programa que leia o preço de um produto, calcule e mostre o seu
+            PREÇO PROMOCIONAL, com 5% de desconto.
+            */
             Console.WriteLine("-*-*-* PROGRAMA DESCONTO EM PRODUTO *-*-*-");
             Console.WriteLine("Favor informe o nome do produto");
             string nomeProduto = Console.ReadLine();

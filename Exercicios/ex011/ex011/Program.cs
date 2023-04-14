@@ -10,6 +10,10 @@ namespace ex011
     {
         static void Main(string[] args)
         {
+            /*
+            11) Desenvolva uma lógica que leia os valores de A, B e C de uma equação do
+            segundo grau e mostre o valor de Delta.
+            */
             Console.WriteLine("-*-*-* PROGRAMA EQUAÇÃO DE 2 GRAU - VALOR DE DELTA *-*-*-");
             Console.WriteLine();
             Console.WriteLine("    Sabendo que a equação de 2 grau para saber o valor de delta é: ");

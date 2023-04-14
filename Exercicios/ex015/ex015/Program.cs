@@ -10,6 +10,11 @@ namespace ex015
     {
         static void Main(string[] args)
         {
+            /*
+            15) Crie um programa que leia o número de dias trabalhados em um mês e mostre o
+            salário de um funcionário, sabendo que ele trabalha 8 horas por dia e ganha R$25
+            por hora trabalhada.
+            */
             Console.WriteLine("-*-*-* PROGRAMA DE SALARIO *-*-*-");
             Console.Write("Favor informe o nome do funcionário: ");
             string nome = Console.ReadLine();

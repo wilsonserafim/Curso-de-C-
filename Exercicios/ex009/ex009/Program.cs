@@ -10,6 +10,10 @@ namespace ex009
     {
         static void Main(string[] args)
         {
+            /*
+            9) Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+            e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
+            */
             Console.WriteLine("-*-*-* PROGRAMA DE CONVERSÃO DE REAL -> DOLAR *-*-*-");
             Console.WriteLine("Favor informe a quantidade de reais que você possui");
             Console.Write("R$");

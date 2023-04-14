@@ -10,6 +10,16 @@ namespace ex004
     {
         static void Main(string[] args)
         {
+
+            /*
+            4) Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
+            entre eles.
+            Ex:
+            Digite um valor: 8
+            Digite outro valor: 5
+            A soma entre 8 e 5 é igual a 13.
+            */
+
             Console.WriteLine("-*-*-* PROGRAMA DE SOMA *-*-*-");
             Console.WriteLine("Favor informe 1º número");
             int n1 = int.Parse(Console.ReadLine());

@@ -10,6 +10,10 @@ namespace ex013
     {
         static void Main(string[] args)
         {
+            /*
+            13) Faça um algoritmo que leia o salário de um funcionário, calcule e mostre o
+            seu novo salário, com 15% de aumento.
+            */
             Console.WriteLine("-*-*-* PROGRAMA DE AUMENTO DE SALARIO *-*-*-");
             Console.WriteLine();
             Console.Write("Favor informe o nome do funcionário: ");
