@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\bin\Debug\ex015.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\bin\Debug\ex015.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\bin\Debug\ex015.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\obj\Debug\ex015.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\obj\Debug\ex015.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\obj\Debug\ex015.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\obj\Debug\ex015.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex015\ex015\obj\Debug\ex015.pdb
