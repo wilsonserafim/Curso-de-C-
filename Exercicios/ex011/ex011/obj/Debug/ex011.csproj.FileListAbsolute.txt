@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\obj\Debug\ex011.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\obj\Debug\ex011.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\obj\Debug\ex011.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\bin\Debug\ex011.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\bin\Debug\ex011.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\bin\Debug\ex011.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\obj\Debug\ex011.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\ex011\ex011\obj\Debug\ex011.pdb
