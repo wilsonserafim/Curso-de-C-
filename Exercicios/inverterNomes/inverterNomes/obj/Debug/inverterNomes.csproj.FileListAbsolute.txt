@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\bin\Debug\inverterNomes.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\bin\Debug\inverterNomes.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\bin\Debug\inverterNomes.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\obj\Debug\inverterNomes.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\obj\Debug\inverterNomes.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\obj\Debug\inverterNomes.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\obj\Debug\inverterNomes.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\inverterNomes\inverterNomes\obj\Debug\inverterNomes.pdb
