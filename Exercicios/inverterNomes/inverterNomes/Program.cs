@@ -110,6 +110,7 @@ namespace inverterNomes
 
             #region Classe Convert
 
+            /*
             String texto = Convert.ToString(2500);
 
             double num1 = Convert.ToDouble(false);
@@ -125,9 +126,12 @@ namespace inverterNomes
             Console.WriteLine();
 
             Console.ReadLine();
-
+            */
 
             #endregion
+
+
+
 
 
 

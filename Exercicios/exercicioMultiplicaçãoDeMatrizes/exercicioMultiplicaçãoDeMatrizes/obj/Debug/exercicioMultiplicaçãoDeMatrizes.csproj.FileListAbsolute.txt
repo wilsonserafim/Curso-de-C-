@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\bin\Debug\exercicioMultiplicaçãoDeMatrizes.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\bin\Debug\exercicioMultiplicaçãoDeMatrizes.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\bin\Debug\exercicioMultiplicaçãoDeMatrizes.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\obj\Debug\exercicioMultiplicaçãoDeMatrizes.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\obj\Debug\exercicioMultiplicaçãoDeMatrizes.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\obj\Debug\exercicioMultiplicaçãoDeMatrizes.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\obj\Debug\exercicioMultiplicaçãoDeMatrizes.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Exercicios\exercicioMultiplicaçãoDeMatrizes\exercicioMultiplicaçãoDeMatrizes\obj\Debug\exercicioMultiplicaçãoDeMatrizes.pdb
