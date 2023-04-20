@@ -10,6 +10,10 @@ namespace controle
     {
         static void Main(string[] args)
         {
+            switch () 
+            {
+                
+            }
         }
     }
 }
