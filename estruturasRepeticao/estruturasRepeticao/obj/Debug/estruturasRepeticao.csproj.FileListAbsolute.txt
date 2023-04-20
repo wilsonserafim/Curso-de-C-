@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\bin\Debug\estruturasRepeticao.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\bin\Debug\estruturasRepeticao.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\bin\Debug\estruturasRepeticao.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\obj\Debug\estruturasRepeticao.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\obj\Debug\estruturasRepeticao.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\obj\Debug\estruturasRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\obj\Debug\estruturasRepeticao.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\estruturasRepeticao\estruturasRepeticao\obj\Debug\estruturasRepeticao.pdb
