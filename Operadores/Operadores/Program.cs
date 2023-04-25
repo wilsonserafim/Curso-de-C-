@@ -98,7 +98,7 @@ namespace Operadores
 
             #region Operador Atribuição 
 
-            /*
+            
             int num1 = 10;
 
             num1 = num1 + 10;
@@ -126,7 +126,7 @@ namespace Operadores
 
             Console.WriteLine(nome);
             Console.ReadLine();
-            */
+            
 
             #endregion
 
@@ -190,7 +190,7 @@ namespace Operadores
 
             #region  Operadores lógicos
 
-            
+            /*
             bool res1 = 100 > 100;
             bool res2 = 100 == 100;
 
@@ -200,7 +200,7 @@ namespace Operadores
             Console.WriteLine(rfinalE);
             Console.WriteLine(rfinalOu);
             Console.ReadLine();
-            
+            */
 
             #endregion
         }

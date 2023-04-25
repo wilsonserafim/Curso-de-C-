@@ -135,24 +135,57 @@ namespace exerciciosAPartirDo16
             Inicio:
             Console.Write("Informe o ano contendo os 4 digitios exemplo 1988:");
             double anobisexto = double.Parse(Console.ReadLine());
+            double resultado1 = anobisexto % 400;
+            double resultado2 = anobisexto % 4;
+            double resultado3 = anobisexto % 100;
 
-            if ((anobisexto % 400 != 0) && (anobisexto % 4 != 0))
+            Console.WriteLine(resultado1);
+            Console.WriteLine(resultado2);
+            Console.WriteLine(resultado3);
+
+            if (resultado1 == 0)
             {
                 Console.WriteLine("O ano é Bisexto");
             }
+            else if ((resultado2 == 0) || (resultado3 != 0))
+            {
+                Console.WriteLine("O ano é Bisexto");
+            }
+            //else if (resultado3 != 0)
+            //{
+            //    Console.WriteLine("O ano é Bisexto");
+            //}
             else
             {
                 Console.WriteLine("O ano não é Bisexto");
             }
 
             Console.WriteLine("-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+            
 
             Console.ReadKey();
 
             goto Inicio;
+            
+
+            #endregion
+
+
+            #region Exercicio 016
+
+
+            Console.WriteLine("-*-*-*-*-* Programa de Poder de voto *-*-*-*-*-\n");
+
+
+
+
+            Console.WriteLine("-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
 
 
             #endregion
+
         }
     }
 }
