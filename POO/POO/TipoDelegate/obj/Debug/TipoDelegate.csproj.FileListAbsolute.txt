@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\bin\Debug\TipoDelegate.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\bin\Debug\TipoDelegate.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\bin\Debug\TipoDelegate.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\obj\Debug\TipoDelegate.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\obj\Debug\TipoDelegate.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\obj\Debug\TipoDelegate.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\obj\Debug\TipoDelegate.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\TipoDelegate\obj\Debug\TipoDelegate.pdb

@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\bin\Debug\classesObjetos.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\bin\Debug\classesObjetos.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\bin\Debug\classesObjetos.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\obj\Debug\classesObjetos.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\obj\Debug\classesObjetos.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\obj\Debug\classesObjetos.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\obj\Debug\classesObjetos.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\classesObjetos\obj\Debug\classesObjetos.pdb
