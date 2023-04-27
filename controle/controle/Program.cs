@@ -58,7 +58,7 @@ namespace controle
 
             switch (op)
             {
-                default;
+                default:
                     goto Inicio;
                 case 1:
                     valor += 100;

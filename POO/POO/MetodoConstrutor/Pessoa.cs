@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MetodoConstrutor
 {
-    internal class Program
+    internal class Pessoa
     {
-        static void Main(string[] args)
-        {
-            Pessoa p1 = new Pessoa();
-        }
+        public string nome;
+        public string sobreNome;
+        public int anoNascimento;
+        public int idade;
     }
 }

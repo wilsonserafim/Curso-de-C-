@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\bin\Debug\controle.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\bin\Debug\controle.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\bin\Debug\controle.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\obj\Debug\controle.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\obj\Debug\controle.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\obj\Debug\controle.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\obj\Debug\controle.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\controle\controle\obj\Debug\controle.pdb
