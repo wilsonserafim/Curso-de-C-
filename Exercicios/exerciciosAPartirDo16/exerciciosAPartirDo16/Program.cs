@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Security.AccessControl;
 using System.Security.Cryptography;
 using System.Text;
@@ -15,7 +16,7 @@ namespace exerciciosAPartirDo16
             #region Exercicio 016
 
 
-            //Console.WriteLine("-*-*-*-*-* Programa de Poder de voto *-*-*-*-*-\n");
+            //Console.WriteLine("-*-*-*-*-* Programa de *-*-*-*-*-\n");
 
 
 
@@ -36,9 +37,9 @@ namespace exerciciosAPartirDo16
             Console.WriteLine("-*-*-*-*-* Programa de Multa de Velocidade *-*-*-*-*-\n");
             Console.WriteLine(" Qual a velocidade aferida?\n");
             velocidade = float.Parse(Console.ReadLine());
-    
+
             valorMulta = (velocidade - 80) * multa;
-            
+
             if (velocidade <= 80 )
             {
                 Console.WriteLine(velocidade + "km/h -- Velocidade permitida ");
@@ -159,7 +160,7 @@ namespace exerciciosAPartirDo16
             }
 
             Console.WriteLine("-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
-            
+
 
             Console.ReadKey();
 
@@ -249,7 +250,7 @@ namespace exerciciosAPartirDo16
             double distancia = double.Parse(Console.ReadLine());
             Console.WriteLine("\n O custo até 200km é R$0,50 por km e R$0,45 por km acima de 200km. ");
             double valorAPagar = 0;
-            
+
             if (distancia <= 200) 
             {
                 valorAPagar = distancia * 0.50;
@@ -291,7 +292,7 @@ namespace exerciciosAPartirDo16
             }
             Console.WriteLine();
             Console.WriteLine("-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
-            
+
             Console.ReadKey();
             */
 
@@ -470,7 +471,7 @@ namespace exerciciosAPartirDo16
             {
                 Console.WriteLine("Essas 3 retas NÃO formam um triangulo");
             }
-                       
+
             Console.WriteLine();
             Console.WriteLine("-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
 
@@ -489,7 +490,7 @@ namespace exerciciosAPartirDo16
             Console.Write("\n Olá " + nome + " seja bem vindo ao Jogo de JoKenPo \n");
             Console.Write("\n Escolha um entre \"pedra\" , \"papel\" ou \"tesoura\" \n");
             string escolhaDoUsuario = Console.ReadLine();
-            
+
             string[] escolhaDoPrograma = { "pedra", "papel", "tesoura" };
             Random numAleatorio = new Random();
             string resultadoEscolhaPrograma = escolhaDoPrograma[numAleatorio.Next(0, 3)];
@@ -526,7 +527,7 @@ namespace exerciciosAPartirDo16
             {
                 Console.WriteLine(" Deu empate! ");
             }
-        Escolha:
+            Escolha:
             Console.WriteLine("\n Quer continuar a jogar? se sim aperte \"s\" se não aperte \"n\" e depois ENTER ! ");
             string op = Console.ReadLine();
             switch (op)
@@ -558,11 +559,11 @@ namespace exerciciosAPartirDo16
             Inicio:
             Console.Write(" Olá escolha um numero entre 1 e 5: ");
             int num = int.Parse(Console.ReadLine());
-            
+
             Random numAleatorio = new Random();
             int numSorteado = numAleatorio.Next(1, 5);
 
-            
+
             if (num == numSorteado)
             {
                 Console.WriteLine("\n O número que o computador escolheu foi: " + numSorteado);
@@ -656,7 +657,7 @@ namespace exerciciosAPartirDo16
 
             /*
             float peso, altura, imc;
-            
+
             Console.WriteLine("-*-*-*-*-* Programa Calculo de IMC *-*-*-*-*-\n");
             Console.WriteLine();
             Console.WriteLine("Informe seu peso em quilogramas e pressione enter ");
@@ -709,20 +710,9 @@ namespace exerciciosAPartirDo16
 
             #endregion
 
-            #region Exercicio 016
-
+            #region Exercicio 035
 
             /*
-                - Carros populares (aluguel de R$90 por dia)
-                - Até 100Km percorridos: R$0,20 por Km
-                - Acima de 100Km percorridos: R$0,10 por Km
-              
-                - Carros de luxo (aluguel de R$150 por dia)
-                - Até 200Km percorridos: R$0,30 por Km
-                - Acima de 200Km percorridos: R$0,25 por Km
-            
-            */
-
             Console.WriteLine("-*-*-*-*-* Programa de Poder de voto *-*-*-*-*-\n");
             Console.Write("\n Informe seu nome: ");
             string nome = Console.ReadLine();
@@ -791,11 +781,267 @@ namespace exerciciosAPartirDo16
 
 
             Console.ReadKey();
-
+            */
 
             #endregion
 
+            #region Exercicio 036
 
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de  *-*-*-*-*-\n");
+            Console.Write(" Olá favor informe seu nome: ");
+            string nome = Console.ReadLine();
+            Console.Write("\n Olá " + nome + " favor informe a quantidade de horas que vc praticou atividades fisicas:  ");
+            int horas = int.Parse(Console.ReadLine());
+            int pontos = 0;
+
+            if (horas <= 10)
+            {
+                pontos = horas * 2;
+                Console.Write("\n Você ganhou " + pontos + " pontos, Parabéns!!! \n");
+            }
+            else if ((horas >= 10) && (horas <=20))
+            {
+                pontos = horas * 5;
+                Console.Write("\n Você ganhou " + pontos + " pontos, Parabéns!!! \n");
+            }
+            else
+            {
+                pontos = horas * 10;
+                Console.Write("\n Você ganhou " + pontos + " pontos, Parabéns!!! \n");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 037
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de *-*-*-*-*-\n");
+            Console.Write("Favor informe seu nome: ");
+            string nome = Console.ReadLine();
+            Console.Write("\nFavor informe seu sexo: ");
+            string sexo = Console.ReadLine();
+            Console.Write("\nFavor informe quanto tempo trabalha na empresa: ");
+            int tempoTrabalha = int.Parse(Console.ReadLine());
+            Console.Write("\nFavor informe seu salário: ");
+            double salario = double.Parse(Console.ReadLine());
+
+            
+            if ((sexo == "feminino") || (sexo == "Feminino"))
+            {
+                if (tempoTrabalha < 15)
+                {
+                    salario += ((salario * 5) / 100);
+                    Console.Write("\nSeu novo salario é : " + salario);
+                }
+                else if ((tempoTrabalha >= 15) || (tempoTrabalha < 20))
+                {
+                    salario += ((salario * 12) / 100);
+                    Console.Write("\nSeu novo salario é : " + salario);
+                }
+                else
+                {
+                    salario += ((salario * 23) / 100);
+                    Console.Write("\nSeu novo salario é : " + salario);
+                }
+            }
+            else if ((sexo == "masculino") || (sexo == "Masculino"))
+            {
+                if (tempoTrabalha <= 20)
+                {
+                    salario += ((salario * 3) / 100);
+                    Console.Write("\nSeu novo salario é : " + salario);
+                }
+                else if ((tempoTrabalha > 20) || (tempoTrabalha < 30))
+                {
+                    salario += ((salario * 13) / 100);
+                    Console.Write("\nSeu novo salario é : " + salario);
+                }
+                else
+                {
+                    salario += ((salario * 25) / 100);
+                    Console.Write("\nSeu novo salario é : " + salario);
+                }
+            }
+
+
+
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 038
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 6;
+
+            for (i = 6; i < 12; i++)
+            {
+                Console.Write(" " + i + " ");
+                if (i == 11)
+                {
+                    Console.WriteLine(" Acabou! ");
+                }
+            }           
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 039
+
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 10;
+
+            for (i = 10; i >= 3; i--)
+            {
+                Console.Write(" " + i + " ");
+                if (i == 3)
+                {
+                    Console.WriteLine(" Acabou! ");
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 040
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 0;
+
+            for (i = 0; i <= 18; i += 3)
+            {
+                Console.Write(" " + i + " ");
+                if (i == 18)
+                {
+                    Console.WriteLine(" Acabou! ");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 041
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 100;
+
+            for (i = 100; i >= 0; i-= 5)
+            {
+                Console.Write(" " + i + " ");
+                if (i == 0)
+                {
+                    Console.WriteLine(" \n\n Acabou! ");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 042
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            Console.Write("Favor informe um numero inteiro e positivo para fazer uma contagem: ");
+            int contagem = int.Parse(Console.ReadLine());
+            int i = 0;
+
+            for (i = 0; i <= contagem; i++)
+            {
+                Console.Write(" " + i + " ");
+                if (i == contagem)
+                {
+                    Console.WriteLine(" \n\n Acabou! ");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 043
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            Console.Write("Favor informe um numero inteiro e positivo para fazer uma contagem: ");
+            int contagem = int.Parse(Console.ReadLine());
+            int i = 0;
+
+            for (i = 0; i <= contagem; i++)
+            {
+                Console.Write(" " + i + " ");
+                if (i == contagem)
+                {
+                    Console.WriteLine(" \n\n Acabou! ");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 043
+
+            
+            Console.WriteLine("-*-*-*-*-* Programa de contagem destacando os numeros  *-*-*-*-*-");
+            Console.WriteLine("-*-*-*-*-* que podem ser divididos por 4 e restar zero  *-*-*-*-*-\n");
+            int i = 30;
+
+            for (i = 30; i >= 0; i--) 
+            { 
+                if ((i % 4) == 0)
+                {
+                    Console.Write("[" + i + "]");
+                }
+                else
+                {
+                    Console.Write(" " + i + " ");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            
+
+            #endregion
 
         }
     }
