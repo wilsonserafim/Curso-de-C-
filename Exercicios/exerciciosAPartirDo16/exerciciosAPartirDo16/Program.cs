@@ -14,10 +14,10 @@ namespace exerciciosAPartirDo16
     {
         static void Main(string[] args)
         {
-            #region Exercicio 016
+            #region Exercicio 016 (modelo)
 
 
-            //Console.WriteLine("-*-*-*-*-* Programa de *-*-*-*-*-\n");
+            //Console.WriteLine("-*-*-*-*-* Programa *-*-*-*-*-\n");
 
 
 
@@ -60,7 +60,7 @@ namespace exerciciosAPartirDo16
             #region Exercicio 018
 
             /*
-            Console.WriteLine("-*-*-*-*-* Programa de Multa de Velocidade *-*-*-*-*-\n");
+            Console.WriteLine("-*-*-*-*-* Programa *-*-*-*-*-\n");
             Console.WriteLine("Qual sua idade?\n");
             int idade = int.Parse(Console.ReadLine());
 
@@ -1124,25 +1124,26 @@ namespace exerciciosAPartirDo16
 
             #endregion
 
-            #region Exercicio 047 
+            #region Exercicio 047 (melhorado)
 
 
             Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
-            int i = 500;
-
-            for (i = 500; i >= 0; i -= 50)
+            int soma = 0;
+            for (int i = 500; i >= 0; i -= 50)
             {
                 Console.Write(" " + i + " ");
+                soma += i; 
                 if (i == 0)
                 {
-                    Console.WriteLine(" \n\n Acabou! ");
+                    Console.WriteLine(" Acabou! ");
                 }
 
             }
+            Console.WriteLine(" A Soma dos numeros é: " + soma);
             Console.WriteLine();
             Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
 
-            Console.ReadKey();
+            Console.ReadLine();
 
 
             #endregion
