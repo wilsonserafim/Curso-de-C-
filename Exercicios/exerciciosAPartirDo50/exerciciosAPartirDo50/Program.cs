@@ -14,39 +14,36 @@ namespace exerciciosAPartirDo50
     {
         static void Main(string[] args)
         {
-            #region Exercicio 050
+            #region Exercicio 050 (refeito)
 
             /*
-             * Desenvolva um programa que faça o sorteio de 20 números entre 0 e 10 e
-                mostre na tela:
-                a) Quais foram os números sorteados
-                b) Quantos números estão acima de 5
-                c) Quantos números são divisíveis por 3
-             
             Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
-            int i = 0;
-            int impares = 0;
-            int pares = 0;
-            Random num = new Random();
-            Console.WriteLine(num);
-            int inicial = 0;
-            int terminal = 10;
+            Random numAletorio = new Random();
+            int numAcimade5 = 0;
+            int numDivPor3 = 0;
 
-            for (i = 0; i <= 5; i++)
+
+            Console.Write("Quais foram os números sorteados? R- ");
+            for (int i = 0; i <= 20; i++)
             {
-                Console.Write("Digite o numero, " + i + ": ");
-                numero = int.Parse(Console.ReadLine());
-                if (numero % 2 == 0)
+                int num = numAletorio.Next(0, 10);
+                if (num > 5 )  
                 {
-                    pares++;
+                    numAcimade5++;
+                    if (num % 3 == 0)
+                    {
+                        numDivPor3++;
+                    }
                 }
-                else
+                else if ((num < 5) && (num % 3 == 0) && (num != 0)) 
                 {
-                    impares++;
+                    numDivPor3++;
                 }
+                Console.Write(" " + num + ",");
             }
-            Console.WriteLine("A quantidade de numero pares são " + pares);
-            Console.WriteLine("A quantidade de numero impares são " + impares);
+            Console.WriteLine();
+            Console.WriteLine("Quantos números estão acima de 5? R- " + numAcimade5);
+            Console.WriteLine("Quantos números são divisíveis por 3 ? R-  " + numDivPor3);
             
             Console.WriteLine();
             Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
@@ -188,46 +185,46 @@ namespace exerciciosAPartirDo50
 
             #endregion
 
-            #region Exercicio 054
+            #region Exercicio 054 (melhorar)
 
-            /*
-            Console.WriteLine("-*-*-*-*-* Programa  media peso e altura *-*-*-*-*-\n");
-            int i = 0;
-            float mediaAltura = 0;
-            float pesssoMais90kg = 0;
-            float pessoaMenos50kgE160Ctm = 0;
-            float pessoaMais190CtmEMais100Kg = 0;
 
-            for (i = 0; i <= 4; i++)
-            {
-                Console.Write(" Favor insira o peso da pessoa: " + (i + 1) + ": ");
-                float peso = float.Parse(Console.ReadLine());
-                Console.Write(" Favor insira a altura da pessoa: " + (i + 1) + " em metros ex.:1,60 ou 1,80 : ");
-                float altura = float.Parse(Console.ReadLine());
-                mediaAltura += altura;//a
-                if ((peso >= 90) && (altura >= 1.9 ))
-                {
-                    pesssoMais90kg = pesssoMais90kg + 1;//b
-                    pessoaMais190CtmEMais100Kg = pessoaMais190CtmEMais100Kg + 1;//d
-                }
-                else if ((peso <= 50) && (altura <= 1.6))
-                {
-                    pessoaMenos50kgE160Ctm = pessoaMenos50kgE160Ctm + 1;
-                }
+            //Console.WriteLine("-*-*-*-*-* Programa  media peso e altura *-*-*-*-*-\n");
+            //int i = 0;
+            //float mediaAltura = 0;
+            //float pesssoMais90kg = 0;
+            //float pessoaMenos50kgE160Ctm = 0;
+            //float pessoaMais190CtmEMais100Kg = 0;
+
+            //for (i = 0; i <= 4; i++)
+            //{
+            //    Console.Write(" Favor insira o peso da pessoa: " + (i + 1) + ": ");
+            //    float peso = float.Parse(Console.ReadLine());
+            //    Console.Write(" Favor insira a altura da pessoa: " + (i + 1) + " em metros ex.:1,60 ou 1,80 : ");
+            //    float altura = float.Parse(Console.ReadLine());
+            //    mediaAltura += altura;//a
+            //    if ((peso >= 90) && (altura >= 1.9 ))
+            //    {
+            //        pesssoMais90kg = pesssoMais90kg + 1;//b
+            //        pessoaMais190CtmEMais100Kg = pessoaMais190CtmEMais100Kg + 1;//d
+            //    }
+            //    else if ((peso <= 50) && (altura <= 1.6))
+            //    {
+            //        pessoaMenos50kgE160Ctm = pessoaMenos50kgE160Ctm + 1;
+            //    }
                 
 
-            }
+            //}
 
-            Console.WriteLine("A média de altura foi: " + (mediaAltura / 5));//a
-            Console.WriteLine(pesssoMais90kg + " pessoas pesam mais que 90k");//b
-            Console.WriteLine(pessoaMenos50kgE160Ctm + " pessoas medem menos que 1.60m e tem menos que 50k");
-            Console.WriteLine(pessoaMais190CtmEMais100Kg + " pessoas medem mais que 1.90m e tem mais que 90k");
+            //Console.WriteLine("A média de altura foi: " + (mediaAltura / 5));//a
+            //Console.WriteLine(pesssoMais90kg + " pessoas pesam mais que 90k");//b
+            //Console.WriteLine(pessoaMenos50kgE160Ctm + " pessoas medem menos que 1.60m e tem menos que 50k");
+            //Console.WriteLine(pessoaMais190CtmEMais100Kg + " pessoas medem mais que 1.90m e tem mais que 90k");
 
-            Console.WriteLine();
-            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+            //Console.WriteLine();
+            //Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
 
-            Console.ReadKey();
-            */
+            //Console.ReadKey();
+            
 
             #endregion
 
@@ -492,98 +489,98 @@ namespace exerciciosAPartirDo50
             #region Exercicio 060
 
 
-            /*
-            Console.WriteLine("-*-*-*-*-* Programa adivinhe qual é o numero sorteado *-*-*-*-*-\n");
-            string nomeMaisVelha = "";
-            string mulherMaisJovem = "";
-            int mediaIdadeGrupo = 0;
-            int homensMais30 = 0;
-            int mulheresMenos18 = 0;
-            int menorIdadeMulher = 99999;
-            int maiorIdade = 0;
-            int cont = 0;
 
-        Inicio:
+        //    Console.WriteLine("-*-*-*-*-* Programa *-*-*-*-*-\n");
+        //    string nomeMaisVelha = "";
+        //    string mulherMaisJovem = "";
+        //    int mediaIdadeGrupo = 0;
+        //    int homensMais30 = 0;
+        //    int mulheresMenos18 = 0;
+        //    int menorIdadeMulher = 99999;
+        //    int maiorIdade = 0;
+        //    int cont = 0;
 
-            Console.Write("informe o nome da pessoa: ");
-            string nome = Console.ReadLine();
-            Console.Write("informe o sexo de: " + nome + " masculino ou feminino: ");
-            string sexo = Console.ReadLine();
-            Console.Write("informe a idade de: " + nome + ": ");
-            int idade = int.Parse(Console.ReadLine());
+        //Inicio:
 
-            if (idade >= maiorIdade)
-            {
-                nomeMaisVelha = nome;
-                maiorIdade = idade;
-                mediaIdadeGrupo += idade;
-                cont++;
+        //    Console.Write("informe o nome da pessoa: ");
+        //    string nome = Console.ReadLine();
+        //    Console.Write("informe o sexo de: " + nome + " masculino ou feminino: ");
+        //    string sexo = Console.ReadLine();
+        //    Console.Write("informe a idade de: " + nome + ": ");
+        //    int idade = int.Parse(Console.ReadLine());
 
-                if ((sexo == "masculino") && (idade >= 30))
-                {
-                    homensMais30 = (homensMais30 + 1);
-                }
-                else if ((sexo == "feminino") && (idade <= 18))
-                {
-                    mulheresMenos18 = (mulheresMenos18 + 1);
-                    if (idade <= menorIdadeMulher)
-                    {
-                        menorIdadeMulher = idade;
-                    }
-                }
-                else if (idade <= menorIdadeMulher)
-                {
-                    menorIdadeMulher = idade;
-                }
+        //    if (idade >= maiorIdade)
+        //    {
+        //        nomeMaisVelha = nome;
+        //        maiorIdade = idade;
+        //        mediaIdadeGrupo += idade;
+        //        cont++;
 
-            }
-            else if (idade <= maiorIdade)
-            {
-                mediaIdadeGrupo += idade;
-                cont++;
-                if ((sexo == "masculino") && (idade >= 30))
-                {
-                    homensMais30++;
-                }
-                else if ((sexo == "feminino") && (idade <= 18))
-                {
-                    mulheresMenos18++;
-                    if (idade <= menorIdadeMulher)
-                    {
-                        menorIdadeMulher = idade;
-                    }
-                }
-                else if (idade <= menorIdadeMulher)
-                {
-                    menorIdadeMulher = idade;
+        //        if ((sexo == "masculino") && (idade >= 30))
+        //        {
+        //            homensMais30 = (homensMais30 + 1);
+        //        }
+        //        else if ((sexo == "feminino") && (idade <= 18))
+        //        {
+        //            mulheresMenos18 = (mulheresMenos18 + 1);
+        //            if (idade <= menorIdadeMulher)
+        //            {
+        //                menorIdadeMulher = idade;
+        //            }
+        //        }
+        //        else if (idade <= menorIdadeMulher)
+        //        {
+        //            menorIdadeMulher = idade;
+        //        }
 
-                }
+        //    }
+        //    else if (idade <= maiorIdade)
+        //    {
+        //        mediaIdadeGrupo += idade;
+        //        cont++;
+        //        if ((sexo == "masculino") && (idade >= 30))
+        //        {
+        //            homensMais30++;
+        //        }
+        //        else if ((sexo == "feminino") && (idade <= 18))
+        //        {
+        //            mulheresMenos18++;
+        //            if (idade <= menorIdadeMulher)
+        //            {
+        //                menorIdadeMulher = idade;
+        //            }
+        //        }
+        //        else if (idade <= menorIdadeMulher)
+        //        {
+        //            menorIdadeMulher = idade;
 
-            }
-        Escolha:
-            Console.Write("\n Quer continuar a inserir os dados? se sim aperte \"s\" se não aperte \"n\" e depois ENTER ! ");
-            string op = Console.ReadLine();
-            switch (op)
-            {
-                default:
-                    Console.WriteLine("\nOpção invalida \n");
-                    goto Escolha;
-                case "s":
-                    goto Inicio;
-                case "n":
-                    goto Final;
-            }
-        Final:
-            Console.WriteLine("\n O nome da pessoa mais velha? R-" + nomeMaisVelha);
-            Console.WriteLine("\n O nome da mulher mais jovem? R-" + mulherMaisJovem);
-            Console.WriteLine("\n A média de idade do grupo? R-" + (mediaIdadeGrupo / cont));
-            Console.WriteLine("\n Quantos homens tem mais de 30 anos? R-" + homensMais30);
-            Console.WriteLine("\n Quantas mulheres tem menos de 18 anos? R-" + mulheresMenos18);
+        //        }
 
-            Console.WriteLine();
-            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
-            Console.ReadKey();
-            */
+        //    }
+        //Escolha:
+        //    Console.Write("\n Quer continuar a inserir os dados? se sim aperte \"s\" se não aperte \"n\" e depois ENTER ! ");
+        //    string op = Console.ReadLine();
+        //    switch (op)
+        //    {
+        //        default:
+        //            Console.WriteLine("\nOpção invalida \n");
+        //            goto Escolha;
+        //        case "s":
+        //            goto Inicio;
+        //        case "n":
+        //            goto Final;
+        //    }
+        //Final:
+        //    Console.WriteLine("\n O nome da pessoa mais velha? R-" + nomeMaisVelha);
+        //    Console.WriteLine("\n O nome da mulher mais jovem? R-" + mulherMaisJovem);
+        //    Console.WriteLine("\n A média de idade do grupo? R-" + (mediaIdadeGrupo / cont));
+        //    Console.WriteLine("\n Quantos homens tem mais de 30 anos? R-" + homensMais30);
+        //    Console.WriteLine("\n Quantas mulheres tem menos de 18 anos? R-" + mulheresMenos18);
+
+        //    Console.WriteLine();
+        //    Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+        //    Console.ReadKey();
+
 
             #endregion
 
@@ -1225,70 +1222,70 @@ namespace exerciciosAPartirDo50
 
             #region Exercicio 080
 
-            /*
-            Console.WriteLine("-*-*-*-*-* Programa adivinhe qual é o numero sorteado *-*-*-*-*-\n");
-            int[] numeros = new int[30];
-            int vezesDoNumero = 0;
 
-            Random randNum = new Random();
+            //Console.WriteLine("-*-*-*-*-* Programa adivinhe qual é o numero sorteado *-*-*-*-*-\n");
+            //int[] numeros = new int[30];
+            //int vezesDoNumero = 0;
 
-            for (int i = 0; i < numeros.Length;)
-            {
-                
-                int rand = randNum.Next(1,15);
-                numeros[i] = rand;
-                i++;
-            }
-            Console.WriteLine("Favor digite um numero ente 1 e 15");
-            int num = int.Parse(Console.ReadLine());
-            int[] numGuard = new int[30];
+            //Random randNum = new Random();
 
-            for (int i = 0; i < numeros.Length;)
-            {
-                if (numeros[i] == num)
-                {
-                    numGuard[i] = i;
-                }
-                i++;
-            }
+            //for (int i = 0; i < numeros.Length;)
+            //{
 
-            //
-            Console.WriteLine();
-            Console.WriteLine("\n O numero digitado foi encontrado nas chaves: ");
-            Console.WriteLine();
-            for (int i = 0; i < numeros.Length;)
-            {
-                if (numGuard[i] != 0)
-                {
-                    Console.Write(" " + numGuard[i] + ", ");
-                }
-                i++;
-            }
-            
-            //
-            for (int i = 0; i < numeros.Length;)
-            {
-                if (numGuard[i] != 0)
-                {
-                    vezesDoNumero++;
-                }
-                i++;
-            }
-            Console.WriteLine();
-            Console.WriteLine(" \n O numero digitado foi repetido: " + vezesDoNumero + " vezes.");
-            //
-            Console.WriteLine();
-            Console.WriteLine(" \n os numeros sorteados foram: ");
-            for (int i = 0; i < numeros.Length;)
-            {
-                Console.Write(" " + numeros[i] + ", ");
-                i++;
-            }
-            
-            Console.WriteLine();
-            Console.WriteLine(" \n -*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*- \n");
-            Console.ReadKey(); 
-            */
+            //    int rand = randNum.Next(1, 15);
+            //    numeros[i] = rand;
+            //    i++;
+            //}
+            //Console.WriteLine("Favor digite um numero ente 1 e 15");
+            //int num = int.Parse(Console.ReadLine());
+            //int[] numGuard = new int[30];
+
+            //for (int i = 0; i < numeros.Length;)
+            //{
+            //    if (numeros[i] == num)
+            //    {
+            //        numGuard[i] = i;
+            //    }
+            //    i++;
+            //}
+
+            ////
+            //Console.WriteLine();
+            //Console.WriteLine("\n O numero digitado foi encontrado nas chaves: ");
+            //Console.WriteLine();
+            //for (int i = 0; i < numeros.Length;)
+            //{
+            //    if (numGuard[i] != 0)
+            //    {
+            //        Console.Write(" " + numGuard[i] + ", ");
+            //    }
+            //    i++;
+            //}
+
+            ////
+            //for (int i = 0; i < numeros.Length;)
+            //{
+            //    if (numGuard[i] != 0)
+            //    {
+            //        vezesDoNumero++;
+            //    }
+            //    i++;
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine(" \n O numero digitado foi repetido: " + vezesDoNumero + " vezes.");
+            ////
+            //Console.WriteLine();
+            //Console.WriteLine(" \n os numeros sorteados foram: ");
+            //for (int i = 0; i < numeros.Length;)
+            //{
+            //    Console.Write(" " + numeros[i] + ", ");
+            //    i++;
+            //}
+
+            //Console.WriteLine();
+            //Console.WriteLine(" \n -*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*- \n");
+            //Console.ReadKey();
+
 
             #endregion
 

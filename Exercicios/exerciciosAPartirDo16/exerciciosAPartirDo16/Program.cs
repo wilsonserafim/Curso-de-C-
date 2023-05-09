@@ -453,7 +453,7 @@ namespace exerciciosAPartirDo16
             double lado3 = double.Parse(Console.ReadLine());
 
 
-            if ((lado1 + lado2 <= lado3) || (lado2 + lado3 <= lado1) || (lado3 + lado1 <= lado2))
+            if ((lado1 + lado2 >= lado3) || (lado2 + lado3 >= lado1) || (lado3 + lado1 >= lado2))
             {
                 if ((lado1 == lado2) && (lado2 == lado3))
                 {
@@ -1126,10 +1126,10 @@ namespace exerciciosAPartirDo16
 
             #region Exercicio 047 
 
-            /*
+
             Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
             int i = 500;
-            
+
             for (i = 500; i >= 0; i -= 50)
             {
                 Console.Write(" " + i + " ");
@@ -1143,7 +1143,7 @@ namespace exerciciosAPartirDo16
             Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
 
             Console.ReadKey();
-            */
+
 
             #endregion
 
