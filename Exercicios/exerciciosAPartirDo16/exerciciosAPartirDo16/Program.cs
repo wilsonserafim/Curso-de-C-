@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
+using System.Runtime.Serialization;
 using System.Security.AccessControl;
 using System.Security.Cryptography;
 using System.Text;
@@ -996,30 +997,6 @@ namespace exerciciosAPartirDo16
             #region Exercicio 043
 
             /*
-            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
-            Console.Write("Favor informe um numero inteiro e positivo para fazer uma contagem: ");
-            int contagem = int.Parse(Console.ReadLine());
-            int i = 0;
-
-            for (i = 0; i <= contagem; i++)
-            {
-                Console.Write(" " + i + " ");
-                if (i == contagem)
-                {
-                    Console.WriteLine(" \n\n Acabou! ");
-                }
-            }
-            Console.WriteLine();
-            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
-
-            Console.ReadKey();
-            */
-
-            #endregion
-
-            #region Exercicio 043
-
-            
             Console.WriteLine("-*-*-*-*-* Programa de contagem destacando os numeros  *-*-*-*-*-");
             Console.WriteLine("-*-*-*-*-* que podem ser divididos por 4 e restar zero  *-*-*-*-*-\n");
             int i = 30;
@@ -1039,7 +1016,196 @@ namespace exerciciosAPartirDo16
             Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
 
             Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 044
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            Console.WriteLine(" Favor informe o numero que vamos começar a contagem: ");
+            int aux = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n Favor informe o numero que vamos terminar nossa contagem: ");
+            int t = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n Favor informe o numero que vamos pular de numero em numero: ");
+            int p = int.Parse(Console.ReadLine());
+            int i = 0;
+
+            for (i = aux; i <= t; i += p)
+            { 
+                Console.Write(" " + i + " ");
+                if (i == t)
+                {
+                    Console.WriteLine(" \n\n Acabou! ");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 045
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            Console.WriteLine(" Favor informe o numero que vamos começar a contagem: ");
+            int aux = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n Favor informe o numero que vamos terminar nossa contagem: ");
+            int t = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n Favor informe o numero que vamos pular de numero em numero: ");
+            int p = int.Parse(Console.ReadLine());
+            int i = 0;
+
+            if (aux > t)
+            {
+                Console.WriteLine("Você iniciou um decremento pressione enter\n");
+                Console.ReadLine();
+
+                for (i = aux; i >= t; i -= p)
+                {
+                    Console.Write(" " + i + " ");
+                    if (i == t)
+                    {
+                        Console.WriteLine(" \n\n Acabou! ");
+                    }
+                }
+            }
+            else 
+            {
+                Console.WriteLine("Você iniciou um incremento pressione enter\n");
+                Console.ReadLine();
+                for (i = aux; i <= t; i += p)
+                {
+                    Console.Write(" " + i + " ");
+                    if (i == t)
+                    {
+                        Console.WriteLine(" \n\n Acabou! ");
+                    }
+                }
+
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 046
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 6;
+            int aux = 0;
+
+            for (i = 6; i <= 100 ; i += 2)
+            {
+                
+                Console.Write(" " + (i + aux) + " ");
+                aux += i;
+
+                if (i == 100)
+                {
+                    Console.WriteLine(" \n\n Acabou! ");
+                }
             
+            }
+            Console.WriteLine(" A soma de todos os numeros é: " + aux);
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+
+            #endregion
+
+            #region Exercicio 047 
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 500;
+            
+            for (i = 500; i >= 0; i -= 50)
+            {
+                Console.Write(" " + i + " ");
+                if (i == 0)
+                {
+                    Console.WriteLine(" \n\n Acabou! ");
+                }
+
+            }
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 048 
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 6;
+            int soma = 0;
+            for (i = 6; i >= 0; i--)
+            {
+                Console.Write("Favor informar um numero: ");
+                int aux = int.Parse(Console.ReadLine());
+                soma += aux;
+                if (i == 0)
+                {
+                    Console.WriteLine(soma);
+                    Console.WriteLine(" \n\n Acabou! ");
+                }
+
+            }
+            
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
+
+            #endregion
+
+            #region Exercicio 049
+
+            /*
+            Console.WriteLine("-*-*-*-*-* Programa de contagem *-*-*-*-*-\n");
+            int i = 0;
+            int impares = 0;
+            int pares = 0;
+            int numero = 0;
+
+            for (i = 0; i <=5;  i++)
+            {
+                Console.Write("Digite o numero, " + i + ": ");
+                numero = int.Parse(Console.ReadLine());
+                if (numero % 2 == 0)
+                {
+                    pares++;
+                }
+                else
+                {
+                    impares++;
+                }
+            }
+            Console.WriteLine("A quantidade de numero pares são " + pares );
+            Console.WriteLine("A quantidade de numero impares são " + impares );
+
+
+
+            Console.WriteLine();
+            Console.WriteLine("\n-*-*-*-*-*-*-*- Fim do Programa  -*-*-*-*-*-*-*-\n");
+
+            Console.ReadKey();
+            */
 
             #endregion
 
