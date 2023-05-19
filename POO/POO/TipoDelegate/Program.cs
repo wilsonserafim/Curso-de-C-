@@ -17,7 +17,7 @@ namespace TipoDelegate
 
             Opecacao conta = null;
 
-            conta += m.Somar;
+            conta += m.Somar; //o += adciona o metodo
             conta += m.Subtrair;
             conta += m.Multiplicar;
             conta += m.Divisao;
@@ -27,7 +27,7 @@ namespace TipoDelegate
             
             Console.WriteLine();
 
-            conta -= m.Subtrair;
+            conta -= m.Subtrair; //o -= retira o metodo
             conta -= m.Divisao;
 
             conta(15, 3);

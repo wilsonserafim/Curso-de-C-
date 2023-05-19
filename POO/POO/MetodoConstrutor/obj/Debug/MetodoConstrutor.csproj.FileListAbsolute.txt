@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\bin\Debug\MetodoConstrutor.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\bin\Debug\MetodoConstrutor.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\bin\Debug\MetodoConstrutor.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.pdb

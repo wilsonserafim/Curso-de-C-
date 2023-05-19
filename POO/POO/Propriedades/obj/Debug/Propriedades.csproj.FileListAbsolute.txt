@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\bin\Debug\Propriedades.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\bin\Debug\Propriedades.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\bin\Debug\Propriedades.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\obj\Debug\Propriedades.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\obj\Debug\Propriedades.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\obj\Debug\Propriedades.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\obj\Debug\Propriedades.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\POO\POO\Propriedades\obj\Debug\Propriedades.pdb
