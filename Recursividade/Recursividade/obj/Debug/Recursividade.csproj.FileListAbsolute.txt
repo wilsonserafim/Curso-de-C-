@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\bin\Debug\Recursividade.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\bin\Debug\Recursividade.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\bin\Debug\Recursividade.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\obj\Debug\Recursividade.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\obj\Debug\Recursividade.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\obj\Debug\Recursividade.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\obj\Debug\Recursividade.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Recursividade\Recursividade\obj\Debug\Recursividade.pdb

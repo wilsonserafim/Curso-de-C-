@@ -1,0 +1,10 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\bin\Debug\Teste.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\bin\Debug\Teste.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\bin\Debug\Teste.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\obj\Debug\Teste.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\obj\Debug\Teste.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\obj\Debug\Teste.Properties.Resources.resources
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\obj\Debug\Teste.csproj.GenerateResource.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\obj\Debug\Teste.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Teste\Teste\obj\Debug\Teste.pdb
