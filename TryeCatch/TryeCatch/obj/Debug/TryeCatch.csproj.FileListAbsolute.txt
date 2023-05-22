@@ -1,0 +1,8 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\bin\Debug\TryeCatch.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\bin\Debug\TryeCatch.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\bin\Debug\TryeCatch.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\obj\Debug\TryeCatch.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\obj\Debug\TryeCatch.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\obj\Debug\TryeCatch.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\obj\Debug\TryeCatch.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TryeCatch\TryeCatch\obj\Debug\TryeCatch.pdb
