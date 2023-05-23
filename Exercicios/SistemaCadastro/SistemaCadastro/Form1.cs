@@ -145,8 +145,14 @@ namespace SistemaCadastro
 
             switch (p.Sexo)
             {
-                case 'M'
-                deffault:
+                case 'M':
+                    radioM.Checked = true;
+                    break;
+                case 'F':
+                    radioF.Checked = true;
+                    break;
+                default:
+                    radioO.Checked = true;
                     break;
             }
 
