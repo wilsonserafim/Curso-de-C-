@@ -40,7 +40,7 @@ namespace Arrays
             string[] nomes2 = 
                 { 
                     " WIlson ",
-                    "Andréa", 
+                    " Andréa ", 
                     " Giovanna ", 
                     " Rosinete ", 
                     " Elaine ", 

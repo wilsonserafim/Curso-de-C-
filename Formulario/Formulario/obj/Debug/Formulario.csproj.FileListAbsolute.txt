@@ -1,0 +1,12 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\bin\Debug\Formulario.exe.config
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\bin\Debug\Formulario.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\bin\Debug\Formulario.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.FormMain.resources
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.exe
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.pdb
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\Formulario\Formulario\obj\Debug\Formulario.FormSegunda.resources

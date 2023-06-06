@@ -1,0 +1,6 @@
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TesteColecoes\TesteColecoes\obj\Debug\TesteColecoes.csproj.AssemblyReference.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TesteColecoes\TesteColecoes\obj\Debug\TesteColecoes.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TesteColecoes\TesteColecoes\obj\Debug\Colecoes.Form1.resources
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TesteColecoes\TesteColecoes\obj\Debug\TesteColecoes.Properties.Resources.resources
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TesteColecoes\TesteColecoes\obj\Debug\TesteColecoes.csproj.GenerateResource.cache
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\TesteColecoes\TesteColecoes\obj\Debug\TesteColecoes.csproj.CoreCompileInputs.cache
