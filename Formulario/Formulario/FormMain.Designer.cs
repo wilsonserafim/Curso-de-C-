@@ -155,6 +155,9 @@
             // 
             // comboMenu
             // 
+            this.comboMenu.Items.AddRange(new object[] {
+            "Inglês",
+            "Português"});
             this.comboMenu.Name = "comboMenu";
             this.comboMenu.Size = new System.Drawing.Size(121, 23);
             // 
