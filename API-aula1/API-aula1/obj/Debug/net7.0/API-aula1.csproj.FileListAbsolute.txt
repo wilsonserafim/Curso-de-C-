@@ -67,3 +67,4 @@ C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\API-aula1\API-aula1\obj\Debug\net
 C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\API-aula1\API-aula1\obj\Debug\net7.0\API-aula1.pdb
 C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\API-aula1\API-aula1\obj\Debug\net7.0\API-aula1.genruntimeconfig.cache
 C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\API-aula1\API-aula1\obj\Debug\net7.0\ref\API-aula1.dll
+C:\Users\jose.serafim\Desktop\Lixo\Curso de C#\API-aula1\API-aula1\bin\Debug\net7.0\Newtonsoft.Json.dll

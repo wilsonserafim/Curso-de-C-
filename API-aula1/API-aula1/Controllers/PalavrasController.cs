@@ -1,6 +1,10 @@
 ﻿using API_aula1.Database;
+using API_aula1.Helpers;
 using API_aula1.Models;
+using API_aula1.Repositories.Contratcs;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace API_aula1.Controllers
 {
@@ -8,28 +12,25 @@ namespace API_aula1.Controllers
     [Route("api/palavras")]
     public class PalavrasController : Controller
     {
-        private readonly MimicContext _banco;
+        private readonly IPalavraRepository _repository;
 
-        public PalavrasController(MimicContext banco)
+        public PalavrasController(MimicContext repository)
         {
-            _banco = banco;
+            _repository = repository;
         }
 
         //-- /api/palavras?data=2023-06-20
         [Route("")]
         [HttpGet]
-        public ActionResult ObterTodas(DateTime? data, int? pagNumero, int? qtdRegistroPag)
+        public ActionResult ObterTodas([FromQuery]PalavraUrlQuery query)
         {
-            var item = _banco.Palavras.AsQueryable();
-            if (data.HasValue)
+            var item = _repository.ObterPalavras(query);
+            if (query.PagNumero > item.Paginacao.TotalPaginas)
             {
-                item = item.Where(a=>a.Criado >= data.Value || a.Atualizacao >= data.Value);
+                return NotFound();
             }
-            if (pagNumero.HasValue)
-            {
-                item = item.Skip((pagNumero.Value - 1) * qtdRegistroPag.Value).Take(qtdRegistroPag.Value);
-            }
-            return Ok(item);
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(item.Paginacao));
+            return Ok(item.ToList());
         }
 
         //-- /api/palavras/1 (PUT: id, nome, ativo, pontuacao, criacao)
@@ -37,13 +38,13 @@ namespace API_aula1.Controllers
         [HttpGet]
         public ActionResult Obter(int id) 
         {
-            var obj = _banco.Palavras.Find(id);//criei uma variavel para procurar o dado no banco através da id e fiz um if onde checa se ele nao encontrar
-            //nenhum dado ele retorna Not Found igual aqui em baixo.
+            var obj = _repository.Obter(id);
+           
             if (obj == null)
             {
                 return NotFound();
             }
-            return Ok();
+            return Ok(obj);
         }
 
         //-- /api/palavras
@@ -51,8 +52,8 @@ namespace API_aula1.Controllers
         [HttpPost]
         public ActionResult Cadastrar([FromBody]Palavra palavra)
         {
-            _banco.Palavras.Add(palavra);
-            _banco.SaveChanges();
+            _repository.Cadastrar(palavra);
+
 
             return Created($"/api/palavras/{palavra.Id}", palavra);
         }
@@ -62,18 +63,12 @@ namespace API_aula1.Controllers
         [HttpPut]
         public ActionResult Atualizar(int id, [FromBody]Palavra palavra)
         {
-            var obj = _banco.Palavras.Find(id);//criei uma variavel para procurar o dado no banco através da id e fiz um if onde checa se ele nao encontrar
-            //nenhum dado ele retorna Not Found igual aqui em baixo.
+            var obj = _repository.Obter(id);
             if (obj == null)
-            {
                 return NotFound();
-            }
-
-            palavra.Id = id;
-            _banco.Palavras.Update(palavra);
-            _banco.SaveChanges();
-
-            return NoContent();
+                palavra.Id = id;
+                _repository.Atualizar(palavra);
+            return Ok();
         }
 
         //-- /api/palavras/1 (DELETE)
@@ -81,17 +76,12 @@ namespace API_aula1.Controllers
         [HttpDelete]
         public ActionResult Deletar(int id)
         {
+            var palavra = _repository.Obter(id);
 
-            var palavra = _banco.Palavras.Find(id);//criei uma variavel para procurar o dado no banco através da id e fiz um if onde checa se ele nao encontrar
-            //nenhum dado ele retorna Not Found igual aqui em baixo.
             if (palavra == null)
-            {
                 return NotFound();
-            }
 
-            palavra.Ativo = false;
-            _banco.Palavras.Update(palavra);
-            _banco.SaveChanges();
+            _repository.Deletar(id);
 
             return NoContent();
         }

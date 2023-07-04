@@ -1,5 +1,9 @@
 using API_aula1.Database;
 using Microsoft.EntityFrameworkCore;
+using API_aula1.Repositories;
+using API_aula1.Repositories.Contratcs;
+using AutoMapper;
+using API_aula1.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +11,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MimicContext>(opt => {
     opt.UseSqlite("Data Source=Database\\Mimic.db");
 });
+
+//service.AddScoped<IPalavraRepository, PalavraRepository>(); tirar duvida com vinicius depois.
+var config = new MapperConfiguration(cfg =>
+{
+    cfg.AddProfile(new DTOMapperProfile());
+});
+//IMapper mapper = new config.CreateMapper(); tirar duvida com vinicius depois.
+//services.AddSingleton(mapper); tirar duvida com vinicius depois.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
